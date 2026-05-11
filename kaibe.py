@@ -15,7 +15,7 @@ from io import BytesIO
 # =========================
 
 st.set_page_config(
-    page_title="Luxury Cosmetics Invoice",
+    page_title="KAIBE Cosmetics Invoice",
     page_icon="🧴",
     layout="wide"
 )
