@@ -122,7 +122,7 @@ st.subheader("🏪 Store Information")
 col1, col2 = st.columns(2)
 
 with col1:
-    store_name = st.text_input("Store Name", "KAI BEAUTY")
+    store_name = st.text_input("Store Name", "KAIBE BEAUTY")
     store_phone = st.text_input("Phone Number")
 
 with col2:
