@@ -343,7 +343,12 @@ if st.button("✨ Generate Professional PDF Invoice"):
         align='C'
     )
 
-   pdf_bytes = bytes(pdf.output(dest='S'))
+    pdf_output = pdf.output(dest='S')
+
+    if isinstance(pdf_output, str):
+        pdf_bytes = pdf_output.encode('latin-1')
+    else:
+        pdf_bytes = bytes(pdf_output)
 
     st.session_state["pdf_data"] = pdf_bytes
     st.session_state["invoice_name"] = f"{invoice_number}.pdf"
