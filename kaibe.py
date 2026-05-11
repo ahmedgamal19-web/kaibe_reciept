@@ -107,8 +107,8 @@ st.markdown("""
 
 st.markdown("""
 <div class="title-box">
-    <h1>Luxury Cosmetics Invoice System</h1>
-    <p>Create Professional PDF Invoices Easily</p>
+    <h1>KAIBE Cosmetics Invoice System</h1>
+    <p>KAIBE RECIEPT</p>
 </div>
 """, unsafe_allow_html=True)
 
